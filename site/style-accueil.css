@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color: #0c0a09;
+}
+
+.navbar {
+    color: #f5f5f4;
+    display: flex;
+    background-color: #0c0a09;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 3%;
+    padding-left: 2%;
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-menu a {
+    color: #f5f5f4;
+    text-decoration: none;
+    margin-right: 6em;
+}
+
+.navbar-menu a:hover {
+    color: #d97706;
+}
+
+#accueil-menu {
+    color: #d97706;
+}
+
+.CTA {
+    width: 7em;
+    height: 2em;
+    text-align: center;
+    background-color: #d97706;
+    padding-top: 0.8em;
+}
+
+.CTA:hover {
+    background-color: #f59e0b;
+}
+
+.hero-section {
+    color: #f5f5f4;
+    background-image: url("IMG/photo-hero.avif");
+}
